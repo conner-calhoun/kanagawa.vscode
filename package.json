@@ -1,0 +1,21 @@
+{
+    "name": "kanagawa",
+    "displayName": "Kanagawa",
+    "description": "A color theme based on colors from https://github.com/rebelot/kanagawa.nvim",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kanagawa",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Kanagawa-color-theme.json"
+            }
+        ]
+    }
+}
