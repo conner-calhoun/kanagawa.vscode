@@ -7,7 +7,7 @@
 		"activityBarBadge.background": "#658594",
 		"activityBarBadge.foreground": "#DCD7BA",
 		"badge.background": "#2A2A37",
-		"button.background": "#DCD7BA",
+		"button.background": "#2A2A37",
 		"button.secondaryBackground": "#223249",
 		"button.secondaryForeground": "#DCD7BA",
 		"checkbox.border": "#223249",
@@ -93,7 +93,7 @@
 		"statusBar.debuggingBackground": "#E82424",
 		"statusBar.debuggingBorder": "#957FB8",
 		"statusBar.debuggingForeground": "#DCD7BA",
-		"statusBar.foreground": "#54546D",
+		"statusBar.foreground": "#938AA9",
 		"statusBar.noFolderBackground": "#1f1f28",
 		"statusBarItem.hoverBackground": "#363646",
 		"statusBarItem.remoteBackground": "#2D4F67",
@@ -213,7 +213,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#E82424"
+				"foreground": "#FF5D62"
 			}
 		},
 		{
@@ -235,7 +235,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#E82424"
+				"foreground": "#FF5D62"
 			}
 		},
 		{
@@ -245,7 +245,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#E82424"
+				"foreground": "#FF5D62"
 			}
 		},
 		{
