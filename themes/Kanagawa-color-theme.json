@@ -49,7 +49,7 @@
 		"editorIndentGuide.background": "#2A2A37",
 		"editorLineNumber.foreground": "#54546D",
 		"editorMarkerNavigation.background": "#363646",
-		"editorRuler.foreground": "#DCD7BA",
+		"editorRuler.foreground": "#363646",
 		"editorSuggestWidget.background": "#1f1f28",
 		"editorSuggestWidget.border": "#16161d",
 		"editorSuggestWidget.selectedBackground": "#363646",
