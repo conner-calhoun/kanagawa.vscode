@@ -182,7 +182,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#957FB8"
+				"foreground": "#957FB8" // Oni Purple
+				// "foreground": "#FF5D62" // Peach Red
 			}
 		},
 		{
@@ -190,16 +191,24 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#FF5D62" // Peach Red
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"punctuation.section.embedded"
 			],
 			"settings": {
 				"foreground": "#C0A36E"
@@ -363,7 +372,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#957FB8"
+				"foreground": "#957FB8" // Oni Purple
 			}
 		},
 		{

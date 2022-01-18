@@ -3,6 +3,10 @@
     "displayName": "Kanagawa",
     "description": "A color theme based on colors from https://github.com/rebelot/kanagawa.nvim",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/conner-calhoun/kanagawa.vscode.git"
+    },
     "engines": {
         "vscode": "^1.63.0"
     },
