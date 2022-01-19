@@ -79,10 +79,10 @@
 		"peekViewEditor.background": "#1F1F28",
 		"peekViewEditor.matchHighlightBackground": "#363646",
 		"peekViewResult.background": "#363646",
-		"scrollbar.shadow": "#16161D",
-		"scrollbarSlider.activeBackground": "#363646",
-		"scrollbarSlider.background": "#1F1F28",
-		"scrollbarSlider.hoverBackground": "#363646",
+		"scrollbar.shadow": "#363646",
+		"scrollbarSlider.activeBackground": "#54546D",
+		"scrollbarSlider.background": "#363646",
+		"scrollbarSlider.hoverBackground": "#54546D",
 		"settings.focusedRowBackground": "#363646",
 		"settings.headerForeground": "#DCD7BA",
 		"sideBar.background": "#1F1F28",
@@ -175,15 +175,32 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Keyword",
 			"scope": [
 				"keyword",
-				"storage.type",
+			],
+			"settings": {
+				// "foreground": "#C0A36E" // Boat Yellow
+				"foreground": "#FFA066" // Sumi Orange
+			}
+		},
+		{
+			"name": "Storage - Type",
+			"scope": [
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#7AA89F" // Wave Aqua 2
+			}
+		},
+		{
+			"name": "Storage - Modifier",
+			"scope": [
 				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#957FB8" // Oni Purple
-				// "foreground": "#FF5D62" // Peach Red
+				// "foreground": "#FFA066" // Sumi Orange
 			}
 		},
 		{
@@ -211,7 +228,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#C0A36E"
+				"foreground": "#9CABCA" // springViolet2
 			}
 		},
 		{
@@ -264,13 +281,21 @@
 				"constant.language",
 				"support.constant",
 				"constant.character",
-				"constant.escape",
+				"constant.escape"
+			],
+			"settings": {
+				"foreground": "#D27E99" // Sakura Pink
+			}
+		},
+		{
+			"name": "Identifiers",
+			"scope": [
 				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#D27E99"
+				"foreground": "#E6C384" // Carp Yellow
 			}
 		},
 		{
@@ -301,7 +326,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#7AA89F"
+				"foreground": "#E6C384" // Carp Yellow
+				// "foreground": "#FF5D62"
 			}
 		},
 		{
